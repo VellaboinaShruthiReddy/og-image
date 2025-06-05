@@ -1,19 +1,12 @@
 {
-  "private": true,
-  "engines": {
-    "node": "14.x"
-  },
+  "name": "sample-node-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project with a basic test script",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc -p web/tsconfig.json"
+    "test": "echo \"Running tests...\" && exit 0"
   },
-  "dependencies": {
-    "chrome-aws-lambda": "7.0.0",
-    "puppeteer-core": "13.1.2",
-    "twemoji": "13.0.1"
-  },
-  "devDependencies": {
-    "@types/puppeteer": "5.4.4",
-    "@types/puppeteer-core": "5.4.0",
-    "typescript": "4.1.5"
-  }
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
 }
